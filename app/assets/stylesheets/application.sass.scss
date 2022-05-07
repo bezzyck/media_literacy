@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+body {
+  > p {
+    background: #000;
+    color: darken(#fff, 10%);
+  }
+}
